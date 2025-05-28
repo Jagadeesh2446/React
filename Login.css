@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.myStyle {
+  display: flex;
+  gap: 10px;
+  margin-left: 285px;
+}
+.w {
+width: 40%;
+}
+
+section{
+  background-image: url('file:///C:/Users/aptol301812/Downloads/gradient-network-connection-background_23-2148881320.avif'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Full height */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.form-control {
+  background: transparent !important; /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 445px;
+  color: #ffffff !important;
+}
+
